@@ -1,0 +1,8 @@
+all:
+        g++ reference.cpp -o reference
+        g++ bbs.cpp -o bbs
+        g++ -fopenmp bbp.cpp -o bbp
+        g++ mss.cpp -o mss
+        g++ -fopenmp msp.cpp -o msp
+        g++ qss.cpp -o qss
+        g++ -fopenmp qsp.cpp -o qsp
